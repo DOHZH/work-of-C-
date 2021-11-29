@@ -1,0 +1,31 @@
+add point a1 5,6
+set point a1 set 1,2
+set point a1 move 1,-2
+set point a1 name 北京
+judge point a1 equal a2
+add polyline a1 5,6,7,8,9,10
+set polyline a1 set 0 3,5
+set polyline a1 move 0 3,-5
+set polyline a1 del 0
+set polyline a1 set_length 1000米
+set polyline a1 name 长安街
+add ring a1 5,6,7,8,9,10
+set ring a1 set 0 3,5
+set ring a1 move 0 3,-5
+set ring a1 del 0
+set ring a1 set_length 1000米
+set ring a1 set_area 1000平方米
+set ring a1 name 天安门广场
+judge ring a1 cover a1
+add polygon a1 outer 0,2,2,2,2,0,0,0
+set polygon a1 inner 0,1,1,1,1,0,0,0
+set polygon a1 set outer 0 3,5
+set polygon a1 move outer 0 3,-5
+set polygon a1 del outer 0
+set polygon a1 set inner 0 3,5
+set polygon a1 move inner 0 3,-5
+set polygon a1 del inner 0
+set polygon a1 set_length 1000米
+set polygon a1 set_area 1000平方米
+set polygon a1 name 天安门广场
+judge polygon a1 cover a1
