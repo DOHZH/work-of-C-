@@ -4,7 +4,7 @@
 
 2. You can use the [./test/main.cpp](OGR/test/main.cpp) to test the class library
 3. You can define input txt document in [./test](https://github.com/DOHZH/work-of-C-/tree/master/OGR/test)
-4. You can read [this manual](OGR/Implementation Specification for Geographic Information Simple feature access Part 1 CommonArchitecture v1.2.1(1).pdf) to get more specific information
+4. You can read [this manual](https://github.com/DOHZH/work-of-C-/blob/29f37aca8fbc5334d372476980818cdaafdd5864/OGR/Implementation%20Specification%20for%20Geographic%20Information%20Simple%20feature%20access%20Part%201%20CommonArchitecture%20v1.2.1(1).pdf) to get more specific information
 
 # Structure of program
 
